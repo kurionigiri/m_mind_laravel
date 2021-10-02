@@ -23,12 +23,12 @@ class LogRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
-    {
-        return [
-            'created_at' => [
-                Rule::unique('logs')->ignore($this->id)
-            ]
-        ];
-    }
+    // public function rules()
+    // {
+    //     return [
+    //         'created_at' => [
+    //             Rule::unique('logs')->ignore($this->id)
+    //         ]
+    //     ];
+    // }
 }
