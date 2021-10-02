@@ -9,7 +9,6 @@ use App\Models\Log;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\View;
-
 class HomeController extends Controller
 {
     /**

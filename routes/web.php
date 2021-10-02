@@ -23,3 +23,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/test', [App\Http\Controllers\HomeController::class, 'test'])->name('test');
 Route::post('/store', [App\Http\Controllers\HomeController::class, 'store'])->name('store');
 Route::get('/list', [App\Http\Controllers\HomeController::class, 'list'])->name('list');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
